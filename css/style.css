@@ -1,0 +1,113 @@
+                            body {
+                            font: monospace;
+                            font-size: auto;
+                            margin: 0;
+                            background-color: darkgrey;
+                            background-image: url(../image/web.jpg);
+                            background-repeat: no-repeat;
+                            background-size: cover;
+                            height: 400px;
+                        }
+                        
+                        .m {
+                            display: flex;
+                            width: 100%;
+                            justify-content: space-around;
+                        }
+                        
+                        .main-nav {
+                            margin-right: auto;
+                        }
+                        
+                        .main-nav a:first-child {
+                            text-decoration: underline;
+                        }
+                        
+                        .m2 li {
+                            display: block;
+                            width: 50%;
+                            margin-right: 150px;
+                            justify-content: space-between;
+                        }
+                        
+                        .fmain {
+                            display: flex;
+                            width: 100%;
+                            list-style: none;
+                            margin-top: 420px;
+                        }
+                        
+                        input {
+                            height: 45px;
+                            width: 40%;
+                            margin-left: 20%;
+                            margin-top: 7%;
+                            border-radius: 10px;
+                        }
+                        
+                        footer {
+                            background-color: grey;
+                            margin: auto;
+                        }
+                        
+                        .footer li {
+                            margin-left: 10px;
+                        }
+                        
+                        .footer2 li {
+                            list-style: none;
+                            color: white;
+                            margin-left: 750px;
+                        }
+                        
+                        header a {
+                            color: white;
+                            padding-left: 10px;
+                            text-decoration: none;
+                            list-style: none;
+                        }
+                        
+                        header a:hover {
+                            font-weight: bolder;
+                        }
+                        
+                        nav ul li {
+                            list-style: none;
+                        }
+                        
+                        nav li span {
+                            font-size: 15px;
+                            margin: 0 5px 0 15px;
+                            color: white;
+                        }
+                        
+                        .footer li {
+                            display: inline;
+                            list-style: none;
+                            color: white;
+                        }
+                        
+                        @media(max-width: 768px) {
+                            body {
+                                height: auto;
+                                width: auto;
+                                background-size: auto;
+                            }
+                            header #m,
+                            main #src {
+                                float: none;
+                                text-align: center;
+                                
+                            }
+                            header {
+                                display: grid;
+                                grid-row: 2;
+                                align-content: space-between;
+                            }
+                            .src {
+                                width: auto;
+                                margin: 0;
+                            }
+                            .fmain {
+                                display: block
+                            }
